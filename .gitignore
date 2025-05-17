@@ -1,0 +1,60 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+/Models/tuner_dir
+
+
+# Ignore IDE and build files
+*.iml
+.gradle
+/local.properties
+/.idea/
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+# Ignore system files
+.DS_Store
+
+# Ignore large file types
+*.log
+*.tmp
+*.bak
+*.swp
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+*.iso
+*.bin
+*.csv
+*.keras
+*.json
+
+# Ignore large directories
+/Models/tuner_dir
+/node_modules
+/vendor
+
+# Ignore specific large files (if known)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.exe
+*.iso
+*.dmg
